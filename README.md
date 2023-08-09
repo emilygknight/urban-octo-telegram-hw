@@ -24,3 +24,6 @@ N/A - I forgot to add the license when I created my repo, I will add it next tim
 
 Links to certain information in the navigation element.
 
+## Screenshot
+![Screen Shot 2023-08-09 at 6 06 01 PM](https://github.com/emilygknight/urban-octo-telegram-hw/assets/138501781/eaf68585-9310-4fed-ac0c-7d67c73a2065)
+
