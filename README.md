@@ -26,7 +26,7 @@ N/A - I forgot to add the license when I created my repo, I will add it next tim
 
 ## Features
 
-- Links to certain information in the navigation element.
+- Contains links to certain information in the navigation element.
 
 ## Screenshot
 - ![Screen Shot 2023-08-09 at 6 05 51 PM](https://github.com/emilygknight/urban-octo-telegram-hw/assets/138501781/0ba2bdd4-387e-404d-a107-5093819f1a06)
