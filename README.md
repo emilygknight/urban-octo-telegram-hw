@@ -19,6 +19,8 @@ Where I put deployed application?
 ## Credits
 
 - https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide
+- https://www.w3schools.com/html/html5_semantic_elements.asp
+- https://medium.com/@justynagolawska/how-to-easily-add-screenshots-into-your-readme-file-on-github-d806a01d6ffd
 
 ## License
 
