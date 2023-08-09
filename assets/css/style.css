@@ -23,6 +23,11 @@ nav {
     justify-content: space-between;
 }
 
+figure {
+    text-align: center;
+    color: #ffffff;
+}
+
 .hero {
     height: 600px;
     width: 100%;
@@ -47,6 +52,7 @@ section {
 
 section p {
     line-height: 30px;
+    text-align: left;
 }
 
 h1 {
@@ -67,23 +73,20 @@ p {
     flex-direction: row;
     flex: 0 0 500px;
     font-size: 18px;
-}
-figure {
+    margin-bottom: 30px;
     text-align: center;
-    color: #ffffff;
-}
-
-
-.float-left {
-    float: left;
-    margin-right: 25px;
-    
 }
 
 img {
     display: block;
     margin: auto;
     max-width: 150px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+    
 }
 
 .float-right {
@@ -97,13 +100,9 @@ aside {
     clear: both;
     float: right;
     width: 19%;
-    height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
     color: #ffffff;
-}
-
-#aside-box {
     position: relative;
     bottom: 1200px;
     right: 0;
@@ -111,12 +110,10 @@ aside {
 
 h2 {
     margin-bottom: 5px;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 h3 {
-    margin-bottom: 20px;
-    font-size: 16px;
     margin: 20px;
     text-align: center;
 }
