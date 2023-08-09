@@ -22,6 +22,12 @@ h1 .seo {
     color: #d9dcd6;
 }
 
+h2 {
+    font-size: 25px;
+    margin: 20px;
+    text-align: center;
+}
+
 nav {
     display: flex;
     padding: 20px;
@@ -98,13 +104,6 @@ aside {
     position: relative;
     bottom: 1382px;
 }
-
-h2 {
-    font-size: 25px;
-    margin: 20px;
-    text-align: center;
-}
-
 
 footer {
     padding: 30px;
