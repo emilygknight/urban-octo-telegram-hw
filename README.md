@@ -3,8 +3,8 @@
 ## Description
 
 - This Website is for a company called "Horiseon". 
-- It demonstrates and has some information on search engine optimization, online repuation management and social media marketing. 
-- The website has links at the top that will take the user to the specific knowledge you want to learn. 
+- It demonstrates and has some information on search engine optimization, online reputation management and social media marketing. 
+- The website has links at the top that will take the user to the specific information you want to learn. 
 - It also has the company name at the top and some demonstrative images that go along with the provided information.
 
 ## Installation
@@ -28,7 +28,8 @@ N/A - I forgot to add the license when I created my repo, I will add it next tim
 
 ## Features
 
-- Contains links to certain information in the navigation element.
+- Contains links in the navigation bar to certain information in the navigation element.
+- When you hover over a certain topic you can click on it and it will take you to that information.
 
 ## Screenshot
 - ![Screen Shot 2023-08-09 at 6 05 51 PM](https://github.com/emilygknight/urban-octo-telegram-hw/assets/138501781/0ba2bdd4-387e-404d-a107-5093819f1a06)
