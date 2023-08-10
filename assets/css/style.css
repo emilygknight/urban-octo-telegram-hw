@@ -3,32 +3,36 @@
     margin: 0;
 }
 
+/* Changes the color of the background for the body which is the main part of the webpage, under the header, 
+I made body an element instead of a class like most of the elements */
 body {
     background-color: #d9dcd6;
 }
 
+/* header contains the title, there was h1 with h1 ceo element but since it wasn't necessary I removed it */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
-}
-
-h1 {
     font-size: 40px;
 }
 
-h1 .seo {
+/* This allows the letters "seo" render a different color than the rest of the header title, I left it be because I cant think of a better way */
+header .seo {
     color: #d9dcd6;
 }
 
+/* This is the headers or titles for both the section paragraphs and the aside paragraphs,
+I made them the same element to keep it simple and clean */
 h2 {
     font-size: 25px;
     margin: 20px;
     text-align: center;
 }
 
-/* This is the navigation bar */
+/* This is the navigation bar with links to different information the webpage provides with the same text/title as each section */
+/* I added this to show that it was a navigation bar and I wanted them to show under the header rather than the same block */
 nav {
     display: flex;
     padding: 20px;
@@ -38,11 +42,14 @@ nav {
     justify-content: space-between;
 }
 
+/* This style element changes the color and decoration of the links in the webpage */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* This element allows me to manipulate the figure element which contains the photo message "team meeting" */
+/* I added this element for practice and to make it more clear on HTML that it is an image rather than a section or div */
 figure {
     display: flex;
     color: #ffffff;
@@ -50,6 +57,8 @@ figure {
     justify-content: center;
 }
 
+/* This element styles the background image but we haven't gone over how to do this so I'm not sure how to do this
+I know how to link on image in HTML but not this so I kind of just left it except for styling a little */
 .hero {
     height: 600px;
     width: 100%;
@@ -60,6 +69,8 @@ figure {
     background-position: center;
 }
 
+/* I added this to divide and style each section of the website the same but seperately */
+/* Within this element are other elements inside (paragraphs, images, headers) */
 section {
     width: 75%;
     margin-left: 10px;
@@ -72,6 +83,9 @@ section {
     color: #ffffff;
 }
 
+/* These are the actual paragraphs within the sections that contain the information the links in the nav bar take you to */
+/* You can style each paragraph to match, including font size, margins, where the text is (text align) and how much each
+line of text takes up (line-height) */
 p {
     font-size: 18px;
     margin-bottom: 30px;
@@ -79,23 +93,29 @@ p {
     line-height: 30px;
 }
 
+/* These are the images inside of the sections, I've added the alt element to each image 
+explaining what the image is */
 img {
     display: block;
     margin: auto;
     max-width: 150px;
 }
 
+/* This is a class forces the image to float to the left in the section */
 .float-left {
     float: left;
     margin-right: 25px;
     
 }
 
+/* This is a class forces the image to float to the right in the section */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/* I created this aside element to follow semantic HTML and CSS because this section is on the side */
+/* I used postision relative to move it 1382 px from the bottom to make it even and make the page look better */
 aside {
     margin-right: 10px;
     padding: 10px;
@@ -108,6 +128,7 @@ aside {
     bottom: 1382px;
 }
 
+/* This is the bottom of the webpage, I made footer an element to make the HTML and CSS cleaner */
 footer {
     padding: 30px;
     clear: both;
