@@ -28,6 +28,7 @@ h2 {
     text-align: center;
 }
 
+/* This is the navigation bar */
 nav {
     display: flex;
     padding: 20px;
@@ -43,8 +44,10 @@ a {
 }
 
 figure {
-    text-align: center;
+    display: flex;
     color: #ffffff;
+    align-items: flex-end;
+    justify-content: center;
 }
 
 .hero {
