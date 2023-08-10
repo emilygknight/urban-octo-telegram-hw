@@ -9,7 +9,7 @@
 
 ## Installation
 
-https://emilygknight.github.io/urban-octo-telegram-hw/
+- Link to application: https://emilygknight.github.io/urban-octo-telegram-hw/
 
 ## Usage
 
